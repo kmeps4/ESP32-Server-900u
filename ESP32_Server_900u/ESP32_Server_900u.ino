@@ -44,7 +44,7 @@
 
 
                        // enable esp sleep [ true / false ]
-#define ESPSLEEP false // this will put the esp board to sleep after [TIME2SLEEP] minutes
+#define ESPSLEEP true // this will put the esp board to sleep after [TIME2SLEEP] minutes
                        // to wake the board up you will need to reboot the console or unplug/replug the esp board or press the reset button on the board.
                        
 #if ESPSLEEP
