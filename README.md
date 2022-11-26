@@ -2,9 +2,6 @@
 
 <br>
 
-NOTE: I added my Kameleon 900 Host inside data folder as an example, so people can use on their host also.
-Enjoy :) --> Kameleon
-
 This is a project designed for the <a href=https://www.espressif.com/en/products/socs/esp32-s2>ESP32-S2</a>, *<a href=https://www.espressif.com/en/products/socs/esp32-s3>ESP32-S3</a> and <a href=https://www.espressif.com/en/products/socs/esp32>ESP32</a> boards to provide a wifi http server, dns server and *<b>USB storage emulation</b>.
 
 it is for the <a href=https://github.com/ChendoChap/pOOBs4>PS4 9.00 OOB Exploit</a>.
@@ -39,7 +36,6 @@ if your board is a <a href=https://www.espressif.com/en/products/socs/esp32-s2>E
 ## ESP32-S3 Boards
 
 if your board is a <a href=https://www.espressif.com/en/products/socs/esp32-s3>ESP32-S3</a> you do not need a usb drive with this project as it emulates a usb mass storage device to the console and triggers a filesystem bug to leverage the exploit(exfathax).<br>
-`these boards are in development stage and have minimal support.`
 
 <br>
 
@@ -96,9 +92,8 @@ these <a href=https://www.espressif.com/en/products/socs/esp32-s2>ESP32-S2</a> b
 <hr>
 
 these <a href=https://www.espressif.com/en/products/socs/esp32-s3>ESP32-S3</a> boards can be used for a plug and play setup(no wiring)<br>
-note that the esp32-s3 boards are not yet officially supported by the esp32 library, the following boards work but require a <a href=https://github.com/espressif/arduino-esp32/tree/esp32-s3-support>development version of the esp32 library</a> installed.
 
-:warning: <a href=https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html>ESP32-S3-DevKitC-1</a><br>
+:ok: <a href=https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html>ESP32-S3-DevKitC-1</a><br>
 
 <br>
 
